@@ -2,4 +2,5 @@
 title: "About me"
 ---
 
-My name is *Emmanuel Yeboah*
+My name is [Emmanuel Yeboah](https://github.com/kwakuemma1)
+
