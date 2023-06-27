@@ -2,11 +2,10 @@
 title: "Median Age Across US Counties"
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
 ```{r}
+#| message: false
+#| echo: false 
 library(tidycensus)
 library(tidyverse)
 x <- get_decennial(geography = "county", 
@@ -19,6 +18,9 @@ x <- get_decennial(geography = "county",
 
 
 ```{r}
+#| message: false
+#| echo: false 
+#| label: setup
 x |>
   ggplot(aes(x = med_age_male, y = med_age_female)) +
   geom_point() +
