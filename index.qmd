@@ -21,6 +21,10 @@ x <- get_decennial(geography = "county",
 ```{r}
 x |>
   ggplot(aes(x = med_age_male, y = med_age_female)) +
-  geom_point()
+  geom_point() +
+  labs(title = "Impact of Male age on Female age Across the US Counties",
+       subtitle = "As the Medain Female age increasses the Mediain Male age does as well",
+       x = "Median Male Age", 
+       y = "Median Female Age")
 ```
 
