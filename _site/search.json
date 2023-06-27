@@ -5,12 +5,5 @@
     "title": "About me",
     "section": "",
     "text": "My name is Emmanuel Yeboah"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Median Age Across US Counties",
-    "section": "",
-    "text": "Warning: package 'tidycensus' was built under R version 4.3.1\n\n\nWarning: • You have not set a Census API key. Users without a key are limited to 500\nqueries per day and may experience performance limitations.\nℹ For best results, get a Census API key at\nhttp://api.census.gov/data/key_signup.html and then supply the key to the\n`census_api_key()` function to use it throughout your tidycensus session.\nThis warning is displayed once per session."
   }
 ]
